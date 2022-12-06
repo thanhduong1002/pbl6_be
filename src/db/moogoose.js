@@ -1,14 +1,15 @@
 const moogoose = require('mongoose');
 
-moogoose.connect('mongodb://127.0.0.1:27017/PBL6', {
+moogoose.connect('mongodb://127.0.0.1:27017/antoan', {
     useNewUrlParser: true,
 })
 
 
-// const me = new User({
-//     name:'Duong',
-//     email: 'nguyenthanhduong@gmail.com',
-//     age: 32
+// const me = new New({
+//     name:'Chong tham nhung',
+//     newspaper: 'Thanh nien',
+//     country: 'Viet Nam',
+//     author: 'Duong'
 // })
 
 // me.save().then(()=>{
